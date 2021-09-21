@@ -3,8 +3,10 @@ syntax = "proto3";
 option java_multiple_files = true;
 
 option java_outer_classname = "SampleProto";
-option java_package = "com.levi.yoon.proto";
-package grpc.sample;
+option java_package = "com.example.grpc.proto";
+
+package com.example.grpc;
+
 message SampleRequest {
   string userId = 1;
   string message = 2;
